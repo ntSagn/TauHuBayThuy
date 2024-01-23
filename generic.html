@@ -9,6 +9,7 @@
 		<title>Generic - Solid State by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="./images/Bay Thuy-logos.jpeg" type="image/png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -18,27 +19,27 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Solid State</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
+				<header id="header" class="alt">
+					<h1><a href="./index.html">Tàu Hủ Bảy Thúy</a></h1>
+					<nav>
+						<a href="#menu">Menu</a>
 					</nav>
+				</header>
+
+			<!-- Menu -->
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="index.html">Trang chủ</a></li>
+							<li><a href="generic.html">Đặt hàng</a></li>
+							<li><a href="elements.html">Liên hệ</a></li>
+							<li><a href="#">Đăng nhập</a></li>
+							<li><a href="#">Đăng ký</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
@@ -132,6 +133,20 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				window.onscroll = function() {myFunction ()};
+				// Lấy phần tử header
+				var header = document.getElementById("header");
+				// Lấy vị trí ban đầu của header
+				var sticky = header.offsetTop;
+				// Thêm hoặc xóa class sticky cho header khi đạt đến vị trí cuộn
+				function myFunction () {
+					if (window.pageYOffset > sticky) {
+						header.classList.remove("alt");
+					} else {
+						header.classList.add("alt");
+					}
+				}
+			</script>
 	</body>
 </html>

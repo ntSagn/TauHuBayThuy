@@ -2408,6 +2408,10 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+		.icon:hover {
+			transform: scale(1.01);
+			cursor: pointer;
+		}
 
 /* Image */
 

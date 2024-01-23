@@ -34,4 +34,3 @@ class Format{
     return $title = ucfirst($title);
    }
 }
-?>
