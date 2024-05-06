@@ -19,11 +19,10 @@
                 <a href="../index.html" style="color: black;"><span class="close">&times;</span></a>
                 <form id="loginForm" action="login.php" method="post">
                     <label for="username"></label>
-                    <input type="text" name="username" required placeholder="Tên đăng nhập">
+                    <input type="text" name="adminUser" required placeholder="Tên đăng nhập">
 
                     <label for="password"></label>
-                    <input type="password" name="password" required placeholder="Mật Khẩu">
-
+                    <input type="password" name="adminPass" required placeholder="Mật Khẩu">
                     <button type="submit">Đăng Nhập</button>
                 </form>
             </div>

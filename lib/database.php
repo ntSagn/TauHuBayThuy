@@ -65,4 +65,5 @@ public function insert($query){
      return false;
     }
    }
+ 
 }

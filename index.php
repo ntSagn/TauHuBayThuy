@@ -17,7 +17,6 @@
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
-
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="./index.html">Tàu Hủ Bảy Thúy</a></h1>
